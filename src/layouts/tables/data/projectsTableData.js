@@ -16,22 +16,22 @@ import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
 import logoInvesion from "assets/images/small-logos/logo-invision.svg";
 
 export default function data() {
-  const Project = ({ image, name }) => (
+  const Project = (prop) => (
     <MDBox display="flex" alignItems="center" lineHeight={1}>
-      <MDAvatar src={image} name={name} size="sm" variant="rounded" />
+      <MDAvatar src={prop.image} name={prop.name} size="sm" variant="rounded" />
       <MDTypography display="block" variant="button" fontWeight="medium" ml={1} lineHeight={1}>
         {name}
       </MDTypography>
     </MDBox>
   );
 
-  const Progress = ({ color, value }) => (
+  const Progress = (prop) => (
     <MDBox display="flex" alignItems="center">
       <MDTypography variant="caption" color="text" fontWeight="medium">
-        {value}%
+        {prop.value}%
       </MDTypography>
       <MDBox ml={0.5} width="9rem">
-        <MDProgress variant="gradient" color={color} value={value} />
+        <MDProgress variant="gradient" color={prop.color} value={value} />
       </MDBox>
     </MDBox>
   );
