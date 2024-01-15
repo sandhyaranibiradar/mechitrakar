@@ -22,5 +22,13 @@ const text = {
   link: "link",
   title: "title",
   addSlider: "Add Slider",
+  addSubAdmin: "Add Sub-Admin",
+  subAdmins: "Sub Admins",
+  subAdminName: "Sub-Admin Name",
+  subAdminEmail: "Sub Admin Email",
+  subAdminPassword: "Sub Admin Password",
+  subAdminRetypePass: "Sub Admin Retype Password",
+  save: "Save",
+  viewBusiness: "View Business",
 };
 export default text;

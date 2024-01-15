@@ -1,0 +1,33 @@
+.wrapper {
+  padding: 20px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 6px 0 rgba(67, 89, 113, 0.12);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid #d9dee3;
+  border-radius: 0.5rem;
+  width: 50%;
+}
+.form {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.card {
+}
+.base {
+  justify-content: center;
+  margin-top: 1rem;
+  display: flex;
+}

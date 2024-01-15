@@ -13,6 +13,7 @@ This free MUI & React Dashboard is coming with prebuilt design blocks, so the de
 switching from our pages to the real website is very easy to be done.
 
 Special thanks go to:
+
 - [Nepcha Analytics](https://nepcha.com?ref=readme) for the analytics tool. Nepcha is already integrated with Material Dashboard React. You can use it to gain insights into your sources of traffic.
 
 **Documentation built by Developers**
@@ -69,7 +70,6 @@ Let us know your thoughts below. And good luck with development!
 
 - [Dashboard](http://demos.creative-tim.com/material-dashboard-react/#/dashboard?ref=readme-sudr)
 - [Profile](https://demos.creative-tim.com/material-dashboard-react/#/profile?ref=readme-sudr)
-- [RTL](https://demos.creative-tim.com/material-dashboard-react/#/rtl?ref=readme-sudr)
 - [Sign In](https://demos.creative-tim.com/material-dashboard-react/#/authentication/sign-in?ref=readme-sudr)
 - [Sign Up](https://demos.creative-tim.com/material-dashboard-react/#/authentication/sign-up?ref=readme-sudr)
 
@@ -110,13 +110,11 @@ material-dashboard-react
     │   │       ├── components
     │   │       ├── functions
     │   │       ├── index.js
-    │   │       └── theme-rtl.js
     │   │   └── theme-dark
     │   │       ├── base
     │   │       ├── components
     │   │       ├── functions
     │   │       ├── index.js
-    │   │       └── theme-rtl.js
     │   ├── components
     │   │   ├── MDAlert
     │   │   ├── MDAvatar
@@ -148,7 +146,6 @@ material-dashboard-react
     │   │   ├── dashboard
     │   │   ├── notifications
     │   │   ├── profile
-    │   │   ├── rtl
     │   │   └── tables
     │   ├── App.js
     │   ├── index.js

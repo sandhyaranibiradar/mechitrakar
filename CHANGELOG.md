@@ -43,7 +43,6 @@
   "react-router-dom"                           6.0.2           ->          6.2.1
   "react-scripts"                              4.0.3           ->          5.0.0
   "stylis"                                     4.0.10          ->          4.0.13
-  "stylis-plugin-rtl"                          2.1.0           ->          2.1.1
   "web-vitals"                                 1.0.1           ->          2.1.4
   "yup"                                        0.32.9          ->          0.32.11
 ```
@@ -169,7 +168,6 @@ chroma-js
 prop-types
 react-chartjs-2
 stylis
-stylis-plugin-rtl
 uuid
 web-vitals
 ```
@@ -187,7 +185,6 @@ web-vitals
 - https://github.com/creativetimofficial/material-dashboard-react/issues/138 (can be closed since it was help wanted)
 - https://github.com/creativetimofficial/material-dashboard-react/issues/137 (user did not respond)
 - https://github.com/creativetimofficial/material-dashboard-react/issues/133 (fixed it by using `useLocation` from `react-router-dom`)
-- https://github.com/creativetimofficial/material-dashboard-react/issues/16 (please check the following page: https://demos.creative-tim.com/material-dashboard-react/#/rtl/rtl-page)
 
 ### Major style changes
 
@@ -404,10 +401,7 @@ ajv                        6.9.1   →   6.10.0
 ### New components
 
 - **src/components/FixedPlugin/FixedPlugin.jsx**(Left menu used by us for customization - due to this, we've had to add a link for the fonts awesome cdn)
-- **src/components/Header/RTLHeaderLinks.jsx**
 - **src/layouts/Admin.jsx** (instead of Dashboard)
-- **src/layouts/RTL.jsx**
-- **src/views/RTLPage/RTLPage.jsx**
 
 ### Deleted components
 

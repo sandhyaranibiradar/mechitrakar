@@ -25,8 +25,10 @@ import Dashboard from "layouts/dashboard";
 import Post from "layouts/post";
 import Categories from "layouts/categories";
 import Slider from "layouts/slider";
+import ViewBusiness from "layouts/view-business";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
+import SubAdmins from "layouts/sub-admins";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -67,19 +69,27 @@ const routes = [
   },
   {
     type: "collapse",
+    name: text?.subAdmins,
+    key: "subAdmins",
+    icon: <Icon fontSize="small">dashboard</Icon>,
+    route: "/subAdmins",
+    component: <SubAdmins />,
+  },
+  {
+    type: "collapse",
+    name: text?.viewBusiness,
+    key: "viewBusiness",
+    icon: <Icon fontSize="small">dashboard</Icon>,
+    route: "/viewBusiness",
+    component: <ViewBusiness />,
+  },
+  {
+    type: "collapse",
     name: "Notifications",
     key: "notifications",
     icon: <Icon fontSize="small">notifications</Icon>,
     route: "/notifications",
     component: <Notifications />,
-  },
-  {
-    type: "collapse",
-    name: "Profile",
-    key: "profile",
-    icon: <Icon fontSize="small">person</Icon>,
-    route: "/profile",
-    component: <Profile />,
   },
   {
     type: "collapse",
