@@ -23,6 +23,8 @@
 // me-chitrakar React layouts
 import Dashboard from "layouts/dashboard";
 import Post from "layouts/post";
+import Categories from "layouts/categories";
+import Slider from "layouts/slider";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 
@@ -47,7 +49,22 @@ const routes = [
     route: "/post",
     component: <Post />,
   },
-
+  {
+    type: "collapse",
+    name: text?.categories,
+    key: "categories",
+    icon: <Icon fontSize="small">dashboard</Icon>,
+    route: "/categories",
+    component: <Categories />,
+  },
+  {
+    type: "collapse",
+    name: text?.slider,
+    key: "slider",
+    icon: <Icon fontSize="small">dashboard</Icon>,
+    route: "/slider",
+    component: <Slider />,
+  },
   {
     type: "collapse",
     name: "Notifications",
@@ -55,6 +72,14 @@ const routes = [
     icon: <Icon fontSize="small">notifications</Icon>,
     route: "/notifications",
     component: <Notifications />,
+  },
+  {
+    type: "collapse",
+    name: "Profile",
+    key: "profile",
+    icon: <Icon fontSize="small">person</Icon>,
+    route: "/profile",
+    component: <Profile />,
   },
   {
     type: "collapse",

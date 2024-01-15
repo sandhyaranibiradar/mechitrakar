@@ -10,5 +10,17 @@ const text = {
   post: "Post",
   category: "Category",
   slider: "Slider",
+  mainCategory: "MAIN CATEGORY",
+  subCategory: "SUB CATEGORY",
+  searchKeyword: "Search Keyword",
+  addPost: "Add Post",
+  categories: "Categories",
+  addCategory: "Add Category",
+  send: "Send",
+  name: "Name",
+  slider: "Slider",
+  link: "link",
+  title: "title",
+  addSlider: "Add Slider",
 };
 export default text;
